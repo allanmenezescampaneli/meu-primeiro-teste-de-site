@@ -1,0 +1,22 @@
+INSTRUÇÕES PARA USAR O SITE DE COMPARAÇÃO DE PREÇOS
+===================================================
+
+1. Abra um terminal PowerShell
+2. Navegue até a pasta do projeto:
+   cd c:\Users\allan\python
+
+3. Inicie o servidor Flask:
+   python site/server.py
+
+4. Abra seu navegador em:
+   http://localhost:5000/  (NÃO - o site estático não está servido)
+   
+5. Na verdade, abra o arquivo site/index.html diretamente no navegador:
+   - Clique duas vezes em: c:\Users\allan\python\site\index.html
+   
+6. O site vai buscar preços em sites reais como Amazon e KaBuM enquanto o servidor está rodando
+
+DICAS:
+- O servidor precisa estar rodando em outro terminal enquanto você usa o site
+- Se receber erro de conexão, verifique se o servidor está ativo
+- Os preços são buscados em tempo real dos sites
